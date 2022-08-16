@@ -1,0 +1,48 @@
+
+body{
+
+    background-image: url(img/xmen.gif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.tabela {
+   border: 7px solid rgb(5, 255, 213);
+   border-radius: 5px;
+   background-color: rgb(7, 228, 244);
+   transition: .6s;
+   background: #03e9f4;
+   color:rgb(0, 0, 0);
+   box-shadow: 0 0 5px #03e9f4;
+   box-shadow: 0 15px 25px rgba(0, 0, 0, .7);
+   border-radius: 14px;
+   
+}
+
+.tabela:hover {
+    background: #a915ff;
+    color:rgb(255, 255, 255);
+    border-radius: 50px;
+    box-shadow: 0 0 5px #03e9f4,
+                0 0 25px #03e9f4,
+                0 0 50px #03e9f4,
+                0 0 100px #03e9f4,
+
+}
+
+
+#tabela000 {
+    border: 10px solid rgb(7, 228, 244);
+    border-radius: 5px;
+    width: 750px;
+    height: 800px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #03e9f4;
+    box-shadow: 10px 10px rgba(0, 0, 0, .7);
+    background: linear-gradient(2000deg, transparent, #00000070);
+    border-radius: 14px;
+    
+}
+label,input{
+    cursor: pointer;
+}
